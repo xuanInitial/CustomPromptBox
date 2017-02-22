@@ -30,9 +30,7 @@
 
 - (void)btnClick{
     PromptBoxView *prom = [[PromptBoxView  alloc] initWithFrame:self.view.bounds WithTitle:nil andTitleColor:nil andPromptViewAlpha:0.2 addpromptViewY:0 andpromptViewColor:nil andAnimateShowTime:2];
-    prom.titleString = @"adasd";
-    prom.titleColor = [UIColor greenColor];
-    prom.promptViewAlpha = 0.8;
+   
     [[UIApplication sharedApplication].keyWindow addSubview:prom];
 }
 - (void)didReceiveMemoryWarning {
