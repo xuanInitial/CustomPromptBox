@@ -17,12 +17,18 @@ CustomPromptBox
 - time  动画时长
    */
 
-   ``` -(instancetype)initWithFrame:(CGRect)frame WithTitle:(NSString *)titleString andTitleColor:(UIColor *)titleColor 
+    - 
+
+    -(instancetype)initWithFrame:(CGRect)frame WithTitle:(NSString *)titleString andTitleColor:(UIColor *)titleColor 
     
     andPromptViewAlpha:(CGFloat)number addpromptViewY:(CGFloat )XYZ 
     
     andpromptViewColor:(UIColor *)promptViewColor andAnimateShowTime:(NSInteger)time;
-    ```
+    
+
+
+
+    
     
 
 添加方法
