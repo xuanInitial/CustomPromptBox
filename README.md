@@ -34,4 +34,4 @@ andpromptViewColor:(UIColor *)promptViewColor andAnimateShowTime:(NSInteger)time
 PromptBoxView *prom = [[PromptBoxView  alloc] initWithFrame:self.view.bounds WithTitle:nil andTitleColor:nil andPromptViewAlpha:0.2 addpromptViewY:0 andpromptViewColor:nil andAnimateShowTime:2];
 [[UIApplication sharedApplication].keyWindow addSubview:prom];
 ```
- Stashed changes
+
